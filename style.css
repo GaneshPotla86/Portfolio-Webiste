@@ -3,3 +3,9 @@
     width: 40px;
     padding: 5px;
 }
+.bg-container{
+    background-color: black;
+    color: #ffffff;
+    height: 100vh;
+    padding: 50px;
+}
