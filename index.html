@@ -1,42 +1,105 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css"/>
-  </head>
+</head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-      <a class="navbar-brand" href="#">
-      Portfolio
-  </a>
-  </a>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+  <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
+    <div class="navbar-nav">
       <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-link" href="#">About Me</a>
-      <a class="nav-link" href="#">Projects</a>
-      <a class="nav-link" href="#">Testimonials</a>
+      <a class="nav-link active" href="#aboutme">About Me</a>
+      <a class="nav-link active" href="#projects">Projects</a>
+      <a class="nav-link active" href="#skills">Skiils</a>
+      <a class="nav-link active" href="#certifications">Certifications</a>
+      <a class="nav-link active" href="#contact">Contact me</a>
     </div>
   </div>
 </nav>
-<div id="sectionHome">
-  <div class="bg-container d-flex flex-column justify-content-center">
-    <div> 
-      <h1>Ganesh Potla</h1>
-      <p>Fullstack Developer<a></a></p>
+<div id="aboutme" class="bg-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center order-1 col-md-6 ">
+                <img src="https://res.cloudinary.com/dewqyds2n/image/upload/c_crop,ar_1:1/v1703567311/dyzdbevpem6arptic2cf.jpg" class="profile-pic"/>
+            </div>
+            <div class="col-12 col-md-6 text-center order-2 p-2">
+                <h1 class="heading">Ganesh Potla</h1>
+                <p class="para">FullStack Developer</p>
+                <p class="description">Full Stack Developer | Turning ideas into powerful digital solutions.</p>
+            </div>
+            <div class="col-12">
+                
+            </div>
+        </div>
     </div>
-  </div>
 </div>
+<div id="projects" class="project-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="projectheading">Projects:</h1>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="project-card shadow">
+                    <h3 class="project-heading">Restaurant Website</h3>
+                    <p class="project-description">A Responsive website of a restaurant menu card to showcase the item available in the different categories.</p>
+                    <p class="project-technologies"><span class="s">Technologies Used:</span> HTML, CSS, Boostrap.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="project-card shadow">
+                    <h3 class="project-heading">Tourism Website</h3>
+                    <p class="project-description">A static website of a tourism to explore places and their history by using this page.And you can also find different places to explore more.</p>
+                    <p class="project-technologies"><span class="s">Technologies Used:</span> HTML, CSS.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="skills" class="skills-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="skillsheading">Skills:</h1>
 
-  </body>
+            </div>
+            <div class="col-12">
+                <h1 class="skills-heading">Frontend:</h1>
+            </div>
+            <div class="col-4 d-flex flex-row ">
+                <div class="skills-card m-1">
+                    <img src="https://res.cloudinary.com/dewqyds2n/image/upload/v1757852401/512px-HTML5_logo_and_wordmark.svg_fzv19w.png" class="skill-pic"/>
+                </div>
+                <div class="skills-card m-1">
+                    <img src="https://res.cloudinary.com/dewqyds2n/image/upload/v1757852401/512px-HTML5_logo_and_wordmark.svg_fzv19w.png" class="skill-pic"/>
+                </div>
+                <div class="skills-card m-1">
+                    <img src="https://res.cloudinary.com/dewqyds2n/image/upload/v1757852401/512px-HTML5_logo_and_wordmark.svg_fzv19w.png" class="skill-pic"/>
+                </div>
+
+            </div>
+            <div class="col-4 d-flex flex-row ">
+                <div class="skills-card m-1">
+                    <img src="https://res.cloudinary.com/dewqyds2n/image/upload/v1757852401/512px-HTML5_logo_and_wordmark.svg_fzv19w.png" class="skill-pic"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="certifications" class="certifications-container">
+
+</div>
+<div id="contact" class="contact-container"></div>
+</body>
 
 </html>
