@@ -85,11 +85,29 @@
 }
 .skills-card{
     background-color: rgb(222, 219, 216);
-    padding: 20px;
+    padding: 15px;
     border-radius: 20px;
+    margin: 10px;
 }
 .skill-pic{
     height: 100px;
     width: 100px;
+    border-radius: 10%;
     
+}
+.certifications-container{
+    background-color: rgb(65, 63, 63);
+    padding: 20px;
+}
+.certificates-heading{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.certificate-pic{
+    height: 380px;
+    width: 480px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
