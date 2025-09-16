@@ -1,13 +1,20 @@
 .bg-container{
-    background-color: rgb(53, 51, 51);
+    background-color: rgb(16, 16, 16);
     padding: 50px;
 }
+.about{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Gill Sans Extrabold", sans-serif;
+}  
 .heading{
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-align: center;
     margin: 10px;
+    
 }
 .para{
     color: #ffffff;
@@ -33,13 +40,14 @@
 
 }
 .project-container{
-    background-color: rgb(65, 63, 63);
+    background-color: rgb(45, 44, 44);
     padding: 20px;
 }
 .projectheading{
     color: #ffffff;
     font-size: 40px;
     font-weight: bold;
+    font-family: "Gill Sans Extrabold", sans-serif;
 }
 .project-card{
     background-color: rgb(188, 185, 185);
@@ -70,7 +78,7 @@
     font-weight: bold;
 }
 .skills-container{
-    background-color: rgb(110, 109, 109);
+    background-color: rgb(45, 39, 39);
     padding: 20px;
 }
 .skillsheading{
@@ -82,6 +90,8 @@
     color: #ffffff;
     font-size: 25px;
     font-weight: bold;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    
 }
 .skills-card{
     background-color: rgb(222, 219, 216);
@@ -103,6 +113,7 @@
     color: #ffffff;
     font-size: 40px;
     font-weight: bold;
+    font-family: "Gill Sans Extrabold", sans-serif;
 
 }
 .certificate-pic{
@@ -110,4 +121,19 @@
     width: 480px;
     border-radius: 10px;
     margin-top: 20px;
+}
+.c{
+    color: #ffffff;
+    font-weight: bold;
+}
+.contact-container{
+    background-color: rgb(45, 39, 39);
+    padding: 20px;
+    height: 200px;
+}
+.contact-heading{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Gill Sans Extrabold", sans-serif;
 }
