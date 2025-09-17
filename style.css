@@ -129,7 +129,6 @@
 .contact-container{
     background-color: rgb(45, 39, 39);
     padding: 20px;
-    height: 200px;
 }
 .contact-heading{
     color: #ffffff;
@@ -140,4 +139,9 @@
 .text{
     color: #ffffff;
     font-size: 18px;
+}
+.bg{
+    background-color: rgb(222, 219, 216);
+    padding: 20px;
+    border-radius: 20px;
 }
